@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-header {
+  background-image: url(/images/bg-header.jpg);
+  background-size: cover;
+}
+
+.box-grid-service {
+  height: 360px;
+  border: 1px solid #d4d4d8;
+}
+
+.box-grid-service:first-child {
+  background-image: url(/images/bg-what-we-do-small.jpg);
+  background-size: cover;
+}

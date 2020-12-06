@@ -10,7 +10,6 @@ module.exports = {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
-      '2xl': '1536px',
     },
     colors: {
       transparent: 'transparent',
@@ -20,12 +19,12 @@ module.exports = {
       white: colors.white,
       gray: colors.coolGray,
       red: colors.red,
-      yellow: colors.amber,
+      lightBlue: colors.lightBlue,
       green: colors.emerald,
       blue: colors.blue,
       indigo: colors.indigo,
       purple: colors.violet,
-      pink: colors.pink,
+      cyan: colors.cyan,
     },
     spacing: {
       px: '1px',
@@ -163,20 +162,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'ui-sans-serif',
-        'system-ui',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
-        'Roboto',
-        '"Helvetica Neue"',
-        'Arial',
-        '"Noto Sans"',
-        'sans-serif',
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"',
+        'Poppins'
       ],
       serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
@@ -202,7 +188,7 @@ module.exports = {
       '5xl': ['3rem', { lineHeight: '1' }],
       '6xl': ['3.75rem', { lineHeight: '1' }],
       '7xl': ['4.5rem', { lineHeight: '1' }],
-      '8xl': ['6rem', { lineHeight: '1' }],
+      '8xl': ['7.938rem', { lineHeight: '7rem' }],
       '9xl': ['8rem', { lineHeight: '1' }],
     },
     fontWeight: {
@@ -416,8 +402,8 @@ module.exports = {
       tight: '-0.025em',
       normal: '0em',
       wide: '0.025em',
-      wider: '0.05em',
-      widest: '0.1em',
+      wider: '0.2em',
+      widest: '0.3em',
     },
     lineHeight: {
       none: '1',
